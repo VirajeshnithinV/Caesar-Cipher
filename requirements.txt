@@ -1,0 +1,14 @@
+# Core numerical and imaging
+numpy>=1.24,<2.0
+opencv-python>=4.8
+Pillow>=9.5
+
+# ArcFace via InsightFace (GPU accelerated with onnxruntime-gpu)
+insightface>=0.7.3
+onnxruntime-gpu>=1.16.3
+
+# DeepFace for Facenet and VGG-Face
+deepface>=0.0.93
+
+# Optional: logging utilities
+loguru>=0.7.2
